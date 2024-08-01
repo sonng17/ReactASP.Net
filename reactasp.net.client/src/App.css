@@ -1,0 +1,57 @@
+﻿/* App.css */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.container {
+  display: flex;
+  width: 1600px;
+}
+.item {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+}
+.func {
+  height: 150px;
+  position: relative;
+}
+.btn {
+  display: inline-block;
+  min-width: 40px;
+  position: absolute;
+  top: 50%; 
+  transform: translateY(-50%);
+  left: 0;
+}
+.display {
+  display: inline-block;
+}
